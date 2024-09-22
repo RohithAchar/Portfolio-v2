@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+}
+
+@font-face {
+  font-family: "SF Pro Display Bold";
+  src: url("/fonts/SFPRODISPLAYBOLD.OTF") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.text-gradient {
+  background: linear-gradient(
+    315deg,
+    rgb(0, 0, 0) 20%,
+    rgb(255, 255, 255) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.card-gradient {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(308deg, rgb(29, 29, 29) 0%, rgb(0, 0, 0) 50%);
+}
