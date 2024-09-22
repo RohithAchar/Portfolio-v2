@@ -153,6 +153,7 @@ const HomePage = () => {
                 <SiExpress size={25} />
                 <p className="text-sm text-accent/50">Expressjs</p>
               </LogoCard>
+              www.linkedin.com/in/rohith-achar-bbb189311/
             </div>
           </div>
         </section>
@@ -178,7 +179,7 @@ const HomePage = () => {
                   <div className="flex flex-col justify-between gap-2 w-full">
                     <p className="flex justify-between items-center text-semibold text-accent/80">
                       E-commerce-admin{" "}
-                      <span className="opacity-70 group-hover:scale-110 group-hover:opacity-90 transition">
+                      <span className="opacity-70 transition">
                         <FaExternalLinkAlt />
                       </span>{" "}
                     </p>
@@ -217,7 +218,7 @@ const HomePage = () => {
                   <div className="flex flex-col justify-between gap-2 w-full">
                     <p className="flex justify-between text-semibold text-accent/80">
                       E-commerce-store{" "}
-                      <span className="opacity-70 group-hover:scale-110 group-hover:opacity-90 transition">
+                      <span className="opacity-70 transition">
                         <FaExternalLinkAlt />
                       </span>{" "}
                     </p>
@@ -252,7 +253,7 @@ const HomePage = () => {
                   <div className="flex flex-col justify-between gap-2 w-full">
                     <p className="flex justify-between text-semibold text-accent/80">
                       The Knight Travail{" "}
-                      <span className="opacity-70 group-hover:scale-110 group-hover:opacity-90 transition">
+                      <span className="opacity-70 transition">
                         <FaExternalLinkAlt />
                       </span>{" "}
                     </p>
@@ -283,27 +284,27 @@ const HomePage = () => {
                 className="group"
               >
                 <div className="flex justify-between items-center w-full">
-                  <div className="flex items-center gap-x-2 text-accent/70 group-hover:text-accent">
+                  <div className="flex items-center gap-x-2 text-accent/70">
                     <FaGithub className="w-6 h-6" />
                     Github
                   </div>
-                  <span className="opacity-70 group-hover:scale-110 group-hover:opacity-90 transition">
+                  <span className="opacity-70 transition">
                     <FaExternalLinkAlt />
                   </span>
                 </div>
               </a>
               <div className="border-b border-accent/45" />
               <a
-                href="https://github.com/RohithAchar"
+                href="https://www.linkedin.com/in/rohith-achar-bbb189311"
                 target="_blank"
                 className="group"
               >
                 <div className="flex justify-between items-center w-full">
-                  <div className="flex items-center gap-x-2 text-accent/70 group-hover:text-accent">
+                  <div className="flex items-center gap-x-2 text-accent/70">
                     <FaLinkedinIn className="w-6 h-6" />
                     LinkedIn
                   </div>
-                  <span className="opacity-70 group-hover:scale-110 group-hover:opacity-90 transition">
+                  <span className="opacity-70 transition">
                     <FaExternalLinkAlt />
                   </span>
                 </div>
@@ -315,7 +316,7 @@ const HomePage = () => {
                 className="group"
               >
                 <div className="flex justify-between items-center w-full">
-                  <div className="flex items-center gap-x-2 text-accent/70 group-hover:text-accent">
+                  <div className="flex items-center gap-x-2 text-accent/70">
                     <SiGmail className="w-6 h-6" />
                     rohithachar2000@gmail.com
                   </div>
