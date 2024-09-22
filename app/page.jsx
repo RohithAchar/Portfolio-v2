@@ -19,7 +19,9 @@ const HomePage = () => {
         <section id="hero">
           <div className="relative flex flex-col justify-center gap-y-4 p-4 px-6 mt-8">
             <div className="absolute top-0 left-0 bg-accent w-56 h-6 rounded-full blur-3xl" />
-            <h3 className="text-xl font-semibold text-gray-200">Hello, I'm</h3>
+            <h3 className="text-xl font-semibold text-gray-200">
+              Hello, I&apos;m
+            </h3>
             <h1 className="text-5xl font-bold text-gradient">Rohith Achar</h1>
             <p className="text-sm text-gray-400">
               A passionate{" "}
@@ -69,8 +71,8 @@ const HomePage = () => {
               growing as a developer.
             </p>
             <p className="text-sm text-gray-400">
-              When I'm not coding, you'll find me gaming, exploring new
-              technologies, or watching anime.
+              When I&apos;m not coding, you&apos;ll find me gaming, exploring
+              new technologies, or watching anime.
             </p>
           </div>
         </section>
@@ -156,8 +158,9 @@ const HomePage = () => {
                 <div className="relative min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg">
                   <Image
                     fill
+                    alt="image"
                     src={"/e-commerce-dashboard.png"}
-                    className="min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg"
+                    className="min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg opacity-80"
                   />
                 </div>
                 <div className="flex flex-col justify-between gap-2">
@@ -185,8 +188,9 @@ const HomePage = () => {
                 <div className="relative min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg">
                   <Image
                     fill
+                    alt="image"
                     src={"/e-commerce-store.png"}
-                    className="min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg"
+                    className="min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg opacity-80"
                   />
                 </div>
                 <div className="flex flex-col justify-between gap-2">
@@ -210,8 +214,9 @@ const HomePage = () => {
                 <div className="relative min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg">
                   <Image
                     fill
+                    alt="image"
                     src={"/knight-travail.png"}
-                    className="min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg"
+                    className="min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg opacity-80"
                   />
                 </div>
                 <div className="flex flex-col justify-between gap-2">
