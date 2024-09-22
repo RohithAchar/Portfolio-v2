@@ -30,3 +30,8 @@ body,
   background: rgb(0, 0, 0);
   background: linear-gradient(308deg, rgb(29, 29, 29) 0%, rgb(0, 0, 0) 50%);
 }
+
+.footer-gradient {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgb(29, 29, 29) 0%, rgb(0, 0, 0) 40%);
+}
