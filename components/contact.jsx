@@ -14,7 +14,7 @@ const Contact = () => {
             className="group"
           >
             <div className="flex justify-between items-center w-full">
-              <div className="flex items-center gap-x-2 text-accent/70 group-hover:text-accent">
+              <div className="flex items-center gap-x-2 text-accent/70 md:group-hover:text-accent">
                 <FaGithub className="w-4 h-4" />
                 Github
               </div>
@@ -30,7 +30,7 @@ const Contact = () => {
             className="group"
           >
             <div className="flex justify-between items-center w-full">
-              <div className="flex items-center gap-x-2 text-accent/70 group-hover:text-accent">
+              <div className="flex items-center gap-x-2 text-accent/70 md:group-hover:text-accent">
                 <FaLinkedinIn className="w-4 h-4" />
                 LinkedIn
               </div>
@@ -42,7 +42,7 @@ const Contact = () => {
           <div className="border-b border-accent/15" />
           <a href="" target="_blank" className="group">
             <div className="flex justify-between items-center w-full">
-              <div className="flex items-center gap-x-2 text-accent/70 group-hover:text-accent">
+              <div className="flex items-center gap-x-2 text-accent/70 md:group-hover:text-accent">
                 <SiGmail className="w-4 h-4" />
                 rohithachar2000@gmail.com
               </div>

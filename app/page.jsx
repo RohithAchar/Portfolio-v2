@@ -177,13 +177,13 @@ const HomePage = () => {
                         fill
                         alt="image"
                         src={"/e-commerce-dashboard.png"}
-                        className="min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg opacity-80 group-hover:opacity-100 transition"
+                        className="min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg opacity-80 md:group-hover:opacity-100 transition"
                       />
                     </div>
                     <div className="flex flex-col gap-2 w-full">
-                      <p className="flex justify-between items-center text-semibold text-accent/80 group-hover:text-accent transition">
+                      <p className="flex justify-between items-center text-semibold text-accent/80 md:group-hover:text-accent transition">
                         E-commerce-admin{" "}
-                        <span className="opacity-50 group-hover:opacity-100 transition">
+                        <span className="opacity-50 md:group-hover:opacity-100 transition">
                           <FaExternalLinkAlt />
                         </span>{" "}
                       </p>
@@ -216,13 +216,13 @@ const HomePage = () => {
                         fill
                         alt="image"
                         src={"/e-commerce-store.png"}
-                        className="min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg opacity-80 group-hover:opacity-100 transition"
+                        className="min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg opacity-80 md:group-hover:opacity-100 transition"
                       />
                     </div>
                     <div className="flex flex-col gap-2 w-full">
-                      <p className="flex justify-between text-semibold text-accent/80 group-hover:text-accent transition">
+                      <p className="flex justify-between text-semibold text-accent/80 md:group-hover:text-accent transition">
                         E-commerce-store{" "}
-                        <span className="opacity-50 group-hover:opacity-100 transition">
+                        <span className="opacity-50 md:group-hover:opacity-100 transition">
                           <FaExternalLinkAlt />
                         </span>{" "}
                       </p>
@@ -251,13 +251,13 @@ const HomePage = () => {
                         fill
                         alt="image"
                         src={"/knight-travail.png"}
-                        className="min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg opacity-80 group-hover:opacity-100 transition"
+                        className="min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg opacity-80 md:group-hover:opacity-100 transition"
                       />
                     </div>
                     <div className="flex flex-col gap-2 w-full">
-                      <p className="flex justify-between text-semibold text-accent/80 group-hover:text-accent transition">
+                      <p className="flex justify-between text-semibold text-accent/80 md:group-hover:text-accent transition">
                         The Knight Travail{" "}
-                        <span className="opacity-50 group-hover:opacity-100 transition">
+                        <span className="opacity-50 md:group-hover:opacity-100 transition">
                           <FaExternalLinkAlt />
                         </span>{" "}
                       </p>
