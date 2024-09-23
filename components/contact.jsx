@@ -18,7 +18,7 @@ const Contact = () => {
                 <FaGithub className="w-4 h-4" />
                 Github
               </div>
-              <span className="opacity-70 transition group-hover:opacity-100">
+              <span className="opacity-70 transition md:group-hover:opacity-100">
                 <FaExternalLinkAlt />
               </span>
             </div>
@@ -34,7 +34,7 @@ const Contact = () => {
                 <FaLinkedinIn className="w-4 h-4" />
                 LinkedIn
               </div>
-              <span className="opacity-70 transition group-hover:opacity-100">
+              <span className="opacity-70 transition md:group-hover:opacity-100">
                 <FaExternalLinkAlt />
               </span>
             </div>
