@@ -193,6 +193,7 @@ const HomePage = () => {
                     </div>
                   </div>
                   <div className="flex gap-2 flex-wrap mt-4">
+                    <Badge>Typescript</Badge>
                     <Badge>Nextjs</Badge>
                     <Badge>Shadcn</Badge>
                     <Badge>PostgreSQL</Badge>
@@ -232,6 +233,7 @@ const HomePage = () => {
                     </div>
                   </div>
                   <div className="flex gap-2 flex-wrap mt-4">
+                    <Badge>Typescript</Badge>
                     <Badge>Nextjs</Badge>
                     <Badge>TailwindCSS</Badge>
                     <Badge>Zustand</Badge>
