@@ -1,6 +1,6 @@
 "use client";
 
-import { FaExternalLinkAlt, FaNode, FaReact } from "react-icons/fa";
+import { FaNode, FaReact } from "react-icons/fa";
 import { RiNextjsLine, RiTailwindCssLine } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiExpress, SiPostgresql, SiPrisma } from "react-icons/si";
@@ -24,9 +24,11 @@ const HomePage = () => {
             <div className="relative flex flex-col justify-center gap-y-4 p-4 px-6 mt-8">
               <div className="md:hidden absolute top-0 left-0 bg-accent w-56 h-6 rounded-full blur-3xl opacity-65" />
               <h3 className="text-xl font-semibold text-gray-200">
-                Hello, I&apos;m
+                Hello, I&apos;m 👋
               </h3>
-              <h1 className="text-5xl font-bold text-gradient">Rohith Achar</h1>
+              <h1 className="text-5xl font-bold bg-gradient-to-l from-purple-500 via-orange-500 to-yellow-500 text-transparent bg-clip-text">
+                Rohith Achar
+              </h1>
               <p className="text-sm md:text-base text-gray-400">
                 A passionate{" "}
                 <span className="text-accent">fullstack developer.</span>
@@ -184,7 +186,7 @@ const HomePage = () => {
                       <p className="flex justify-between items-center text-semibold text-accent/80 md:group-hover:text-accent transition">
                         E-commerce-admin{" "}
                         <span className="opacity-50 md:group-hover:opacity-100 transition">
-                          <FaExternalLinkAlt />
+                          ↗
                         </span>{" "}
                       </p>
                       <p className="text-sm font-normal text-accent/50">
@@ -224,7 +226,7 @@ const HomePage = () => {
                       <p className="flex justify-between text-semibold text-accent/80 md:group-hover:text-accent transition">
                         E-commerce-store{" "}
                         <span className="opacity-50 md:group-hover:opacity-100 transition">
-                          <FaExternalLinkAlt />
+                          ↗
                         </span>{" "}
                       </p>
                       <p className="text-sm font-normal text-accent/50">
@@ -260,7 +262,7 @@ const HomePage = () => {
                       <p className="flex justify-between text-semibold text-accent/80 md:group-hover:text-accent transition">
                         The Knight Travail{" "}
                         <span className="opacity-50 md:group-hover:opacity-100 transition">
-                          <FaExternalLinkAlt />
+                          ↗
                         </span>{" "}
                       </p>
                       <p className="text-sm font-normal text-accent/50">

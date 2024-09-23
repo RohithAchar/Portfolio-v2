@@ -24,7 +24,9 @@
     "**/*.ts",
     "**/*.tsx",
     "app/layout.jsx",
-    "app/page.jsx"
+    "app/page.jsx",
+    "components/gradient.jsx",
+    "components/ui/badge.jsx"
   ],
   "exclude": ["node_modules"]
 }

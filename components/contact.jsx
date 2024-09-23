@@ -1,4 +1,4 @@
-import { FaExternalLinkAlt, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 const Contact = () => {
@@ -19,7 +19,7 @@ const Contact = () => {
                 Github
               </div>
               <span className="opacity-70 transition md:group-hover:opacity-100">
-                <FaExternalLinkAlt />
+                ↗
               </span>
             </div>
           </a>
@@ -35,7 +35,7 @@ const Contact = () => {
                 LinkedIn
               </div>
               <span className="opacity-70 transition md:group-hover:opacity-100">
-                <FaExternalLinkAlt />
+                ↗
               </span>
             </div>
           </a>
