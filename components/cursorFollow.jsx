@@ -26,7 +26,7 @@ const CursorFollow = () => {
         pointerEvents: "none",
         zIndex: 1000,
       }}
-      className={`hidden md:block absolute w-[500px] h-[500px] bg-accent rounded-full top-0 left-0 blur-3xl opacity-5 z-50 transition`}
+      className={`hidden md:block absolute w-[500px] h-[500px] bg-accent/50 rounded-full top-0 left-0 blur-3xl opacity-5 z-50 transition`}
     ></div>
   );
 };

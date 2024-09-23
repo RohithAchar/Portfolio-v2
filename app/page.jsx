@@ -179,7 +179,7 @@ const HomePage = () => {
                         fill
                         alt="image"
                         src={"/e-commerce-dashboard.png"}
-                        className="min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg opacity-80 md:group-hover:opacity-100 transition"
+                        className="object-cover min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg opacity-80 md:group-hover:opacity-100 transition"
                       />
                     </div>
                     <div className="flex flex-col gap-2 w-full">
@@ -219,7 +219,7 @@ const HomePage = () => {
                         fill
                         alt="image"
                         src={"/e-commerce-store.png"}
-                        className="min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg opacity-80 md:group-hover:opacity-100 transition"
+                        className="object-cover min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg opacity-80 md:group-hover:opacity-100 transition"
                       />
                     </div>
                     <div className="flex flex-col gap-2 w-full">
@@ -255,7 +255,7 @@ const HomePage = () => {
                         fill
                         alt="image"
                         src={"/knight-travail.png"}
-                        className="min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg opacity-80 md:group-hover:opacity-100 transition"
+                        className="object-cover min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg opacity-80 md:group-hover:opacity-100 transition"
                       />
                     </div>
                     <div className="flex flex-col gap-2 w-full">
