@@ -32,7 +32,7 @@ const HomePage = () => {
                 <span className="text-accent">fullstack developer.</span>
               </p>
               <a
-                href="https://drive.usercontent.google.com/download?id=1q8Tpribf6yYR0-dVc-o-QKv7PCG9ICRj&export=download&authuser=0&confirm=t&uuid=02fb17aa-1970-4fce-b712-1945903ca227&at=AO7h07eCxEosKS7840TJx"
+                href={`${process.env.RESUME_DOWNLOAD_URL}`}
                 className="border text-center border-[#1D1D1D] py-4 px-6 rounded-lg w-40 text-sm text-accent/90"
               >
                 Download CV
