@@ -72,8 +72,7 @@ const HomePage = () => {
                 <span className="font-semibold text-accent">
                   web development
                 </span>
-                , and I’m FaExternalLinkAlt, FaGithub,truly enjoying the process
-                of building and refining my skills. My journey has taught me the
+                , and I’m truly enjoying the process of building and refining my skills. My journey has taught me the
                 importance of{" "}
                 <span className="font-semibold text-accent">
                   perseverance and continuous learning.
